@@ -41,7 +41,7 @@ class FishesViewModel extends ChangeNotifier {
     if (fishResponse.responseStatus != ResponseStatus.success) {
       Functions.showMessageResponseStatus(
         fishResponse.responseStatus,
-        'Buscar',
+        'buscar',
         'os',
         'peixes',
       );
